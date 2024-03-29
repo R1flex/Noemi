@@ -37,10 +37,12 @@
                     <span class="burger__menu-label">открыть меню</span>
                 </button>
 
-                <img src="sources/svg/noemi-logo.svg" alt="Noemi Logo" class="header__logo">
+                <a class="logo__img" href="#">
+                    <img src="sources/svg/noemi-logo.svg" alt="Noemi Logo" class="header__logo">
+                </a>
             </nav>
 
-            <a href="" class="logo__img-mobile">
+            <a href="#" class="logo__img-mobile">
                 <img src="sources/svg/noemi-logo.svg" alt="Noemi Logo" class="header__logo-mobile">
             </a>
 
@@ -52,11 +54,11 @@
     <div class="popup visuality__hidden">
         <div class="popup__container">
           <div class="feedback">
-            <h2 class="section__title">Ваш фидбэк</h2>
+            <h2 class="popup__title">Ваш фидбэк</h2>
             <form class="feedback-form">
               <div class="form__row">
-                <label class="form__label" for="question__select-id">Как часто вы заходите на сайт?</label>
-                <select class="question__select" for="question__select-id">
+                <label class="form__label">Как часто вы заходите на сайт?</label>
+                <select class="question__select">
                   <option selected>Почти каждый день</option>
                   <option>Почти каждую неделю</option>
                   <option>Почти каждый месяц</option>
@@ -102,9 +104,9 @@
                                 <a href="#">Interior</a>
                             </li>
                         </ul>
-                    <p>
-                        Сейчас в тренде: сад<br> на подоконнике
-                    </p>
+                    <a class="card__text" href="#">
+                        Сейчас в тренде: сад на подоконнике
+                    </a>
                 </div>
             </div>
             <div class="card card2">
@@ -114,9 +116,9 @@
                             <a href="#">Food</a>
                         </li>
                     </ul>
-                    <p>
-                        Сыры на красивых<br> картинках из интернета: <br> какие они на вкус
-                    </p>
+                    <a class="card__text" href="#">
+                        Сыры на красивых картинках из интернета: какие они на вкус
+                    </a>
                 </div>
             </div>
             <div class="card card3">
@@ -129,9 +131,9 @@
                             <a href="#">Travel</a>
                         </li>
                     </ul>
-                    <p>
-                        Собираемся в первый <br> поход в горы
-                    </p>
+                    <a class="card__text" href="#">
+                        Собираемся в первый поход в горы
+                    </a>
                 </div>
             </div>
             <div class="card card4">
@@ -144,9 +146,9 @@
                             <a href="#">Health</a>
                         </li>
                     </ul>
-                    <p>
-                        Сейчас в тренде: сколько <br> витамина с в лимонах
-                    </p>
+                    <a href="#" class="card__text">
+                        Сейчас в тренде: сколько> витамина с в лимонах
+                    </a>
                 </div>
             </div>
         </div>
@@ -172,12 +174,12 @@
                         <a href="#" class="main__title">10 мест, ради которых стоит <br> проснуться на рассвете</a>
 
                         <div class="author__container">
-                            <time class="main__content-time">10 июня 2019</time>
+                            <time class="main__content-time" datetime="2019-06-10">10 июня 2019</time>
                             <a href="#" class="main__content-author"> Неизвестный автор</a>
                         </div>
 
                         <p>
-                            Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города…<br> Музеи еще закрыты. Что посмотреть?
+                            Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
                         </p>
 
                     </div>
@@ -199,7 +201,7 @@
                         <a href="#" class="main__title">Йога для начинающих в <br> домашних условиях</a>
 
                         <div class="author__container">
-                            <time class="main__content-time">10 июня 2019</time>
+                            <time class="main__content-time" datetime="2019-06-10">10 июня 2019</time>
                             <a href="#" class="main__content-author"> Неизвестный автор</a>
                         </div>
 
@@ -223,7 +225,7 @@
                         <a href="#" class="main__title">Лучшие музыкальные <br> фестивали этого лета</a>
 
                         <div class="author__container">
-                            <time class="main__content-time">10 июня 2019</time>
+                            <time class="main__content-time" datetime="2019-06-10">10 июня 2019</time>
                             <a href="#" class="main__content-author"> Неизвестный автор</a>
                         </div>
 
@@ -254,7 +256,7 @@
                         <a href="#" class="main__title">Наукоёмкий подход к кулинарии</a>
 
                         <div class="author__container">
-                            <time class="main__content-time">10 июня 2019</time>
+                            <time class="main__content-time" datetime="2019-06-10">10 июня 2019</time>
                             <a href="#" class="main__content-author"> Неизвестный автор</a>
                         </div>
 
@@ -284,7 +286,7 @@
                         <a href="#" class="main__title">Делаем модные принты на <br> подушках для интерьера</a>
 
                         <div class="author__container">
-                            <time class="main__content-time">10 июня 2019</time>
+                            <time class="main__content-time" datetime="2019-06-10">10 июня 2019</time>
                             <a href="#" class="main__content-author"> Неизвестный автор</a>
                         </div>
 
@@ -305,7 +307,7 @@
                         <img src="sources/img/2.jpg" alt="2">
 
                         <div class="aside__card-container">
-                            <time class="aside__card-time">14 июня 2019</time>
+                            <time class="aside__card-time" datetime="2019-06-10">14 июня 2019</time>
                             <a href="#" class="aside__card-title">
                                 10 мест, ради которых стоит проснуться
                             </a>
@@ -316,7 +318,7 @@
                         <img src="sources/img/151.jpg" alt="2">
 
                         <div class="aside__card-container">
-                            <time class="aside__card-time">14 июня 2019</time>
+                            <time class="aside__card-time" datetime="2019-06-10">14 июня 2019</time>
                             <a href="#" class="aside__card-title">
                                 Йога для домашних
                             </a>
@@ -327,7 +329,7 @@
                         <img src="sources/img/45.jpg" alt="2">
 
                         <div class="aside__card-container">
-                            <time class="aside__card-time">14 июня 2019</time>
+                            <time class="aside__card-time" datetime="2019-06-10">14 июня 2019</time>
                             <a href="#" class="aside__card-title">
                                 Как мы превратили классное место в балкон 
                             </a>
@@ -338,7 +340,7 @@
                         <img src="sources/img/501.jpg" alt="2">
 
                         <div class="aside__card-container">
-                            <time class="aside__card-time">14 июня 2019</time>
+                            <time class="aside__card-time" datetime="2019-06-10">14 июня 2019</time>
                             <a href="#" class="aside__card-title">
                                 Кулинарный подход к науке
                             </a>
@@ -349,7 +351,7 @@
                         <img src="sources/img/7.jpg" alt="2">
 
                         <div class="aside__card-container">
-                            <time class="aside__card-time">14 июня 2019</time>
+                            <time class="aside__card-time" datetime="2019-06-10">14 июня 2019</time>
                             <a href="#" class="aside__card-title">
                                 Лучшие причёски для расапущенных волос
                             </a>
@@ -453,7 +455,7 @@
                                 <span class="cost">1000&#8381;</span>
                             </div>
 
-                            <button href="#" class="cost__btn">В магазин</button>
+                            <a href="#" class="cost__btn">В магазин</a>
 
                         </div>
                     </div>
@@ -477,7 +479,7 @@
                                 <span class="cost">3500&#8381;</span>
                             </div>
 
-                            <button href="#" class="cost__btn">В магазин</button>
+                            <a href="#" class="cost__btn">В магазин</a>
 
                         </div>
                     </div>
@@ -502,7 +504,7 @@
                                 <span class="cost">400&#8381;</span>
                             </div>
 
-                            <button href="#" class="cost__btn">В магазин</button>
+                            <a href="#" class="cost__btn">В магазин</a>
 
                         </div>
                     </div>
